@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff; /* Kolom putih */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #ffd700; /* Header tabel warna kuning */
+    color: #333; /* Teks hitam */
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+td {
+    font-size: 14px;
+    color: #333; /* Teks hitam */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Link berwarna hitam */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+button, input[type="submit"], input[type="button"] {
+    background-color: #ffd700; /* Warna kuning */
+    color: #333; /* Teks hitam */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #ffc107; /* Warna kuning lebih gelap saat hover */
+}
+
+/* Formulir */
+form {
+    background-color: #fff; /* Latar belakang formulir putih */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+/* Form Input */
+input[type="text"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fffbea; /* Field input berwarna kuning pucat */
+    color: #333; /* Teks hitam */
+}
+
+/* Link tombol kembali */
+a.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 12px;
+}
